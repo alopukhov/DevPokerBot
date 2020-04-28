@@ -1,0 +1,48 @@
+[
+  {
+    "alias": "poker",
+    "choices": [
+      { "val" : 0, "text": "0" },
+      { "val" : 1, "text": "1" },
+      { "val" : 2, "text": "2" },
+      { "val" : 3, "text": "3" },
+      { "val" : 4, "text": "4" },
+      { "val" : 5, "text": "5" },
+      { "val" : 6, "text": "6" },
+      { "val" : 7, "text": "8" },
+      { "text": "\u267E"},
+      { "text": "\u2754"},
+      { "text": "\u2615\uFE0F"}
+    ]
+  },
+  {
+    "alias": "fibonacci",
+    "choices": [
+      { "val" : 0, "text": "0" },
+      { "val" : 1, "text": "1" },
+      { "val" : 2, "text": "2" },
+      { "val" : 3, "text": "3" },
+      { "val" : 4, "text": "5" },
+      { "val" : 5, "text": "8" },
+      { "val" : 6, "text": "13" },
+      { "val" : 7, "text": "21" },
+      { "text": "\u267E"},
+      { "text": "\u2754"},
+      { "text": "\u2615\uFE0F"}
+    ]
+  },
+  {
+    "alias": "tshirts",
+    "choices": [
+      { "text": "XS" },
+      { "text": "S" },
+      { "text": "M" },
+      { "text": "L" },
+      { "text": "XL" },
+      { "text": "XXL" },
+      { "text": "\u267E"},
+      { "text": "\u2754"},
+      { "text": "\u2615\uFE0F"}
+    ]
+  }
+]

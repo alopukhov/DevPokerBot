@@ -1,0 +1,26 @@
+#setup-default-decks: true
+#initialize-database: always
+#database-location: mem:test
+database-location: ~/pokerbot/db
+
+bot:
+  name: your_bot_name
+  token: PLACE_YOUR_TOKEN_HERE
+  proxy:
+    enabled: false
+    host: hostname
+    port: 8080
+    type: HTTP
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: false
+    properties:
+      hibernate.dialect: org.hibernate.dialect.H2Dialect
+
+  datasource:
+    url: jdbc:h2:${database-location};DB_CLOSE_DELAY=-1
+    initialization-mode: ${initialize-database:never}
+    schema: classpath:/sql/init_db.sql
